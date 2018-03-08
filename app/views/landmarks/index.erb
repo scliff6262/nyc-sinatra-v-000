@@ -1,0 +1,6 @@
+<h2>Figures:</h2>
+<ul>
+  <%Landmark.all.each do |landmark|%>
+    <li> <%=landmark.name%>: <%=landmark.year_completed%></li>
+  <%end%>
+</ul>
